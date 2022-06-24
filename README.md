@@ -4,7 +4,7 @@ This a script help you restore my phigros data
 Install [[Termux](https://github.com/termux/termux-app/releases/)]
 
 Install [[Phigros from taptap](https://www.taptap.io/app/165287?share_id=adcc95408468&utm_medium=share&utm_source=copylink)]
-## Install
+## Install components in termux
 ```bash
 curl -s https://raw.githubusercontent.com/tathaha/Termux-phigros/main/install.sh | bash
 ```
