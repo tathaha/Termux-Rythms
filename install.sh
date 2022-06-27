@@ -1,6 +1,6 @@
 echo please install phigros from taptap to work
 echo update termux 
-pkg update -y && pkg upgrade -y to update termux
+pkg update -y && pkg upgrade -y
 echo install wget
 pkg install wget
 echo install adb
