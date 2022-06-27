@@ -1,9 +1,10 @@
 echo please install phigros from taptap to work
-echo please use pkg update -y && pkg upgrade -y to update termux
+echo update termux 
+pkg update -y && pkg upgrade -y to update termux
 echo install wget
 pkg install wget
 echo install adb
-curl -s https://raw.githubusercontent.com/rendiix/termux-adb-fastboot/master/install.sh | bash
+pkg install android-tools
 echo get backup file
 wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ab
 clear
