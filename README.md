@@ -5,6 +5,11 @@ Install [[Termux](https://github.com/termux/termux-app/releases/)]
 
 Install [[Phigros from taptap](https://www.taptap.io/app/165287?share_id=adcc95408468&utm_medium=share&utm_source=copylink)]
 ## Install components in termux
+Step 1
+```bash
+pkg install curl
+```
+Step 2
 ```bash
 curl -s https://raw.githubusercontent.com/tathaha/Termux-phigros/main/install.sh | bash
 ```
