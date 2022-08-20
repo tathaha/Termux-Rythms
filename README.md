@@ -7,11 +7,11 @@ Install [[Phigros from taptap](https://www.taptap.io/app/165287?share_id=adcc954
 ## Install components in termux
 Step 1
 ```bash
-pkg install curl
+curl -O https://raw.githubusercontent.com/tathaha/Termux-phigros/main/install.sh
 ```
 Step 2
 ```bash
-curl -s https://raw.githubusercontent.com/tathaha/Termux-phigros/main/install.sh | bash
+sh install.sh
 ```
 ## Then you follow this link to use the ab file
 https://pastebin.com/cKBQJ5MJ
