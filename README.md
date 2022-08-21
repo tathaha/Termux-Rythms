@@ -15,6 +15,6 @@ curl -O https://raw.githubusercontent.com/tathaha/Termux-Rythms/main/install.sh
 ```
 Step 2
 ```bash
-sh install.sh
+bash install.sh
 ```
 ## Now you can adb in the script
