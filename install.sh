@@ -9,11 +9,10 @@ pkg install android-tools -y
 echo get backup file
 wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ab
 clear
-echo "Enter Yor Ip"
+echo "Enter Yor Ip:Port Pair"
 read a
-echo "Enter Yor Port Pair"
+echo you pair to this ip $a
+adb pair $a
+echo "Enter Yor IP:Port Connect"
 read b
-echo you connect to $a :$b
-adb connect $a :$b
-
-
+adb connect $b
