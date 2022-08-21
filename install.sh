@@ -21,7 +21,7 @@ echo "Phigros (y/n)"
 read phigros
 if [[ $phigros ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
-    wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ad
+    wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ab
     d=phigros
 esle
     echo "choose an orther option"
