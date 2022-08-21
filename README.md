@@ -1,5 +1,5 @@
 # Termux-phigros
-This a script help you restore my phigros data
+This a script help you restore my Rythms data
 ## Requirements
 Install [[Termux](https://github.com/termux/termux-app/releases/)]
 
