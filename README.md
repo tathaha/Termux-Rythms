@@ -3,7 +3,9 @@ This a script help you restore my phigros data
 ## Requirements
 Install [[Termux](https://github.com/termux/termux-app/releases/)]
 
-Install [[Phigros from taptap](https://www.taptap.io/app/165287?share_id=adcc95408468&utm_medium=share&utm_source=copylink)]
+Install [[Phigros from taptap](https://www.taptap.io/app/165287)]
+Install [[Musedash from Google Play Store]https://play.google.com/store/apps/details?id=com.prpr.musedash)]
+Install [[Orzmic from taptap](https://www.taptap.io/app/194778)]
 ## Install components in termux
 Step 1
 ```bash
