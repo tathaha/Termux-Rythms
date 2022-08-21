@@ -29,7 +29,7 @@ pkg update -y && pkg upgrade -y
 echo install wget
 pkg install wget -y
 echo install adb
-pkg install android-tools -y
+curl -s https://raw.githubusercontent.com/rendiix/termux-adb-fastboot/master/install.sh | bash
 clear
 echo "What game you want to to get data"
 echo "You Can Choose At Least 1 Option Otherwise The script will broken"
