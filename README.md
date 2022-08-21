@@ -1,4 +1,4 @@
-# Termux-phigros
+# Termux-Rythms
 This a script help you restore my Rythms data
 ## Requirements
 Install [[Termux](https://github.com/termux/termux-app/releases/)]
