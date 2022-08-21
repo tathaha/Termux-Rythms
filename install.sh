@@ -26,3 +26,5 @@ adb pair "$a":"$b"
 echo "Enter Yor Port Connect"
 read c
 adb connect "$a":"$c"
+ech restore ab file
+adb restore phigros.ab
