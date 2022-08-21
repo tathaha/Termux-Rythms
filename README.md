@@ -17,4 +17,4 @@ Step 2
 ```bash
 sh install.sh
 ```
-## Now you can adb into script
+## Now you can adb in the script
