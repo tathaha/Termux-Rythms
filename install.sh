@@ -1,5 +1,7 @@
 #!/bin/bash
-FILE=./home/phigros.ab
+FILE=./phigros.ab
+FILE=./musedash.ab
+FILE=./orzmic.ab
 echo please install phigros from taptap to work
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
@@ -19,30 +21,30 @@ echo "What game you want to to get data"
 echo "You Can Choose At Least 1 Option Otherwise The script will broken"
 echo "Phigros (y/n)"
 read phigros
-if [ $phigros ==  "y" ]; then
+if [[ $phigros ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
     wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ab
     d="phigros.ab"
-else
+esle
     echo "choose an orther option"
 fi
 echo "Muse Dash (y/n)"
 echo "This allow for musedash from Google Play"
 read musedash
-if [ $musedash ==  "y" ]; then
+if [[ $musedash ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
     wget https://github.com/tathaha/Termux-phigros/raw/main/musedash.ab
     d="musedash.ab"
-else
+esle
     echo "choose an orther option"
 fi
 echo "Orzmic (y/n)"
 read orzmic
-if [ $orzmic ==  "y" ]; then
+if [[ $orzmic ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
     wget https://github.com/tathaha/Termux-phigros/raw/main/orzmic.ab
     d="orzmic.ab"
-else
+esle
     echo "this is end of option backup the file"
 fi
 echo "Enter Yor Ip"
