@@ -11,7 +11,7 @@ Install [[Orzmic from taptap](https://www.taptap.io/app/194778)]
 ## Install components in termux
 Step 1
 ```bash
-curl -O https://raw.githubusercontent.com/tathaha/Termux-phigros/main/install.sh
+curl -O https://raw.githubusercontent.com/tathaha/Termux-Rythms/main/install.sh
 ```
 Step 2
 ```bash
