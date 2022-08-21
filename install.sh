@@ -21,8 +21,8 @@ echo "Phigros (y/n)"
 read phigros
 if [[ $phigros ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
-    wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ab
-    d=phigros
+    wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ad
+    d="phigros.ab"
 esle
     echo "choose an orther option"
 fi
@@ -32,7 +32,7 @@ read musedash
 if [[ $musedash ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
     wget https://github.com/tathaha/Termux-phigros/raw/main/musedash.ab
-    d=musedash
+    d="musedash.ab"
 esle
     echo "choose an orther option"
 fi
@@ -41,7 +41,7 @@ read orzmic
 if [[ $orzmic ==  "y"]]; then
     echo "you choose this option right, so don't choose orther option"
     wget https://github.com/tathaha/Termux-phigros/raw/main/orzmic.ab
-    d=orzmic.ab
+    d="orzmic.ab"
 esle
     echo "this is end of option backup the file"
 fi
