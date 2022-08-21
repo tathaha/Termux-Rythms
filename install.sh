@@ -1,7 +1,7 @@
 #!/bin/bash
 FILE=./phigros.ab
-FILE=./musedash.ab
-FILE=./orzmic.ab
+FILESS=./musedash.ab
+FILES=./orzmic.ab
 echo please install phigros from taptap to work
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
@@ -9,6 +9,20 @@ if [ -f "$FILE" ]; then
     rm -r $FILE
 else 
     echo "$FILE does not exist."
+fi
+if [ -f "$FILES" ]; then
+    echo "$FILES exists."
+    echo delete old file
+    rm -r $FILES
+else 
+    echo "$FILES does not exist."
+fi
+if [ -f "$FILESS" ]; then
+    echo "$FILESS exists."
+    echo delete old file
+    rm -r $FILESS
+else 
+    echo "$FILESS does not exist."
 fi
 echo update termux 
 pkg update -y && pkg upgrade -y
