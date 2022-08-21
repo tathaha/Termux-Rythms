@@ -4,7 +4,7 @@ echo please install phigros from taptap to work
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
     echo delete old file
-    rm -r phigros.ab
+    rm -r $FILE
 else 
     echo "$FILE does not exist."
 fi
