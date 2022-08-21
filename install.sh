@@ -1,3 +1,4 @@
+#!/bin/bash
 echo please install phigros from taptap to work
 echo update termux 
 pkg update -y && pkg upgrade -y
@@ -8,5 +9,11 @@ pkg install android-tools -y
 echo get backup file
 wget https://github.com/tathaha/Termux-phigros/raw/main/phigros.ab
 clear
-echo please do this command
-echo follow this link https://pastebin.com/cKBQJ5MJ
+echo "Enter Yor Ip"
+read a
+echo "Enter Yor Port Pair"
+read b
+var=$((a:b))
+echo you connect to $var
+
+
