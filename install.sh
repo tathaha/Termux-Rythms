@@ -13,6 +13,7 @@ echo "Enter Yor Ip"
 read a
 echo "Enter Yor Port Pair"
 read b
-echo you connect to $a:$b
+echo you connect to $a:b
+adb connect $a:b
 
 
