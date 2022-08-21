@@ -1,7 +1,14 @@
 #!/bin/bash
+FILE=./phigros.ab
 echo please install phigros from taptap to work
-echo delete old file
-rm -r phigros.ab
+if [ -f "$FILE" ]; then
+    echo "$FILE exists."
+    echo delete old file
+    rm -r phigros.ab
+else 
+    echo "$FILE does not exist."
+fi
+
 echo update termux 
 pkg update -y && pkg upgrade -y
 echo install wget
