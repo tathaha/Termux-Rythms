@@ -8,7 +8,6 @@ if [ -f "$FILE" ]; then
 else 
     echo "$FILE does not exist."
 fi
-
 echo update termux 
 pkg update -y && pkg upgrade -y
 echo install wget
