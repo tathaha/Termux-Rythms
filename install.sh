@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE=phigros.ab
+FILE=./home/phigros.ab
 echo please install phigros from taptap to work
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
