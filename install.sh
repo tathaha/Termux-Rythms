@@ -1,5 +1,7 @@
 #!/bin/bash
 echo please install phigros from taptap to work
+echo delete old file
+rm -r phigros.ab
 echo update termux 
 pkg update -y && pkg upgrade -y
 echo install wget
