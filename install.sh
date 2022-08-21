@@ -13,7 +13,6 @@ echo "Enter Yor Ip"
 read a
 echo "Enter Yor Port Pair"
 read b
-var=$((a:b))
-echo you connect to $var
+echo you connect to $a:$b
 
 
