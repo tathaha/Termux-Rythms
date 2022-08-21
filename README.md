@@ -13,5 +13,4 @@ Step 2
 ```bash
 sh install.sh
 ```
-## Then you follow this link to use the ab file
-https://pastebin.com/cKBQJ5MJ
+## Now you can adb into script
