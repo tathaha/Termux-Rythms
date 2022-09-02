@@ -8,6 +8,7 @@ Install [[Phigros from taptap](https://www.taptap.io/app/165287)]
 Install [[Musedash from Google Play Store](https://play.google.com/store/apps/details?id=com.prpr.musedash)]
 
 Install [[Orzmic from taptap](https://www.taptap.io/app/194778)]
+## Note: You need to turn on the adb over wifi
 ## Install components in termux
 Step 1
 ```bash
